@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
-<div id="header-placeholder" style="margin-bottom:60px;"></div>
+<!-- Holds the header -->
+<div id="header-placeholder"></div>
+
+<!-- Prevent content from sliding under the fixed header -->
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .header-spacer {
+    height: 60px;
+  }
+</style>
+
+<div class="header-spacer"></div>
 
 <script>
-  // Load shared header
   fetch("/World/header.html")
-    .then(response => response.text())
+    .then(r => r.text())
     .then(html => {
       document.getElementById("header-placeholder").innerHTML = html;
-    })
-    .catch(err => console.error("Header load error:", err));
+    });
 </script>
 <head>
     <title>The Tribe</title>
