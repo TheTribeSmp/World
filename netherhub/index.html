@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
-<script>
-  // Load shared header
-  fetch("/World/header.html")
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById("header-placeholder").innerHTML = html;
-    })
-    .catch(err => console.error("Header load error:", err));
-</script>
+<nav style="
+    background:#222;
+    padding:12px 20px;
+    font-family:Arial, sans-serif;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000;
+">
+  <a href="/World/overworld/" style="color:#fff; margin-right:20px; text-decoration:none;">
+    Overworld
+  </a>
+  <a href="/World/nether/" style="color:#fff; margin-right:20px; text-decoration:none;">
+    Nether
+  </a>
+  <a href="/World/netherhub/" style="color:#fff; margin-right:20px; text-decoration:none;">
+    Netherhub
+  </a>
+  <a href="/World/end/" style="color:#fff; text-decoration:none;">
+    End
+  </a>
+</nav>
 <head>
     <title>Netherhub</title>
 
