@@ -42,7 +42,18 @@ UnminedCustomMarkers = {
 
     markers: [
 
-        
+        {
+            x: -353,
+            z: 192,
+            image: "icons/spawn.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+            text: "Spawn",
+            textColor: "black", 
+			offsetX: 2,
+            offsetY: 20,
+            font: "20px Calibri,sans serif",
+        },
         {
             x: -270,
             z: 886,
