@@ -223,8 +223,8 @@ UnminedCustomMarkers = {
             font: "20px Calibri,sans serif",
         },
 		{
-            x: 87,
-            z: 40,
+            x: 1392,
+            z: 640,
             image: "icons/home.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.3,
