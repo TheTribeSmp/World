@@ -222,6 +222,18 @@ UnminedCustomMarkers = {
             offsetY: 20,
             font: "20px Calibri,sans serif",
         },
+		{
+            x: 87,
+            z: 40,
+            image: "icons/home.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+            text: "Anthony Sunkist",
+            textColor: "black", 
+			offsetX: 2,
+            offsetY: 20,
+            font: "20px Calibri,sans serif",
+        },
         // add your markers here
 
 
