@@ -306,6 +306,30 @@ UnminedCustomMarkers = {
             offsetY: 20,
             font: "20px Calibri,sans serif",
         },
+		{
+            x: -2760,
+            z: -616,
+            image: "icons/home.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+            text: "RandoGuy",
+            textColor: "black", 
+			offsetX: 2,
+            offsetY: 20,
+            font: "20px Calibri,sans serif",
+        },
+		{
+            x: 434,
+            z: 913,
+            image: "icons/home.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+            text: "Nomiriko",
+            textColor: "black", 
+			offsetX: 2,
+            offsetY: 20,
+            font: "20px Calibri,sans serif",
+        },
         // add your markers here
 
 
