@@ -5,7 +5,7 @@ var UnminedMapProperties = {
     defaultZoom: 0,
     imageFormat: "png",
     minRegionX: -3,
-    minRegionZ: -1,
+    minRegionZ: -2,
     maxRegionX: 2,
     maxRegionZ: 1,
     worldName: "The Tribe",

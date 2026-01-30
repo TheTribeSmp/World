@@ -43,8 +43,8 @@ UnminedCustomMarkers = {
     markers: [
 
         {
-            x: -28,
-            z: -68,
+            x: -35,
+            z: -46,
             image: "icons/spawn.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.3,
@@ -53,12 +53,60 @@ UnminedCustomMarkers = {
 			offsetX: 2,
             offsetY: 20,
             font: "20px Calibri,sans serif",
-        }
-        // add your markers here
+        },
+        {
+            x: -1091,
+            z: 668,
+            image: "icons/home.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+            text: "Tribe & DB",
+            textColor: "black", 
+			offsetX: 2,
+            offsetY: 20,
+            font: "20px Calibri,sans serif",
+        },
+		{
+            x: -872,
+            z: -2424,
+            image: "icons/home.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+            text: "Defgha & Ugo",
+            textColor: "black", 
+			offsetX: 2,
+            offsetY: 20,
+            font: "20px Calibri,sans serif",
+        },
+		{
+            x: -935,
+            z: -1770,
+            image: "icons/raid.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+            text: "Defgha & Ugo",
+            textColor: "black", 
+			offsetX: 2,
+            offsetY: 20,
+            font: "20px Calibri,sans serif",
+        },
+		{
+            x: -215,
+            z: 211,
+            image: "icons/home.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+            text: "Anthony Sunkist",
+            textColor: "black", 
+			offsetX: 2,
+            offsetY: 20,
+            font: "20px Calibri,sans serif",
+        },
+        
 
 
 
 
-        // do not delete the following two closing brackets
+     
     ]
 }
