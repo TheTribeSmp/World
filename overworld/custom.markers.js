@@ -67,6 +67,18 @@ UnminedCustomMarkers = {
             font: "20px Calibri,sans serif",
         },
 		{
+            x: -924,
+            z: -22,
+            image: "icons/home.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+            text: "BBubbles, Puff",
+            textColor: "black", 
+			offsetX: 2,
+            offsetY: 20,
+            font: "20px Calibri,sans serif",
+        },
+		{
             x: 1900,
             z: 200,
             image: "icons/home.png",
