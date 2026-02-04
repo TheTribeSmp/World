@@ -67,6 +67,18 @@ UnminedCustomMarkers = {
             font: "20px Calibri,sans serif",
         },
 		{
+            x: 3016,
+            z: 3576,
+            image: "icons/home.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+            text: "all3inches & hannuhbis",
+            textColor: "black", 
+			offsetX: 2,
+            offsetY: 20,
+            font: "20px Calibri,sans serif",
+        },
+		{
             x: 1533,
             z: -1300,
             image: "icons/home.png",
