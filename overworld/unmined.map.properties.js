@@ -6,7 +6,7 @@ var UnminedMapProperties = {
     imageFormat: "png",
     minRegionX: -8,
     minRegionZ: -8,
-    maxRegionX: 5,
+    maxRegionX: 6,
     maxRegionZ: 7,
     worldName: "The Tribe",
     background: "#000000",
