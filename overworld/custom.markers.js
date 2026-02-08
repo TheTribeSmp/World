@@ -177,7 +177,7 @@ UnminedCustomMarkers = {
 		{
             x: 24,
             z: 680,
-            image: "icons/home.png",
+            image: "icons/ocean.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.3,
             text: "Anthony Sunkist",
